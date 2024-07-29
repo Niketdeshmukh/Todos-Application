@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/77925518/181934587-d0b573bf-2d70-4524-b5b4-2120434f4054.png">
+
+### Objective
+Create a frontend Todo List application using React or Next.js with the following features:
+
+### Requirements
+Core Features:
+Create Task: Allow users to add new tasks.
+
+Update Task: Allow users to edit existing tasks.
+
+Mark as Done: Allow users to mark tasks as completed.
+
+Search Tasks: Implement a search functionality to filter tasks.
+
+Expandable List: Display tasks in an expandable list format, showing a description and a timestamp of the last update when expanded.
+
+### Framework:
+Used Next.js for the frontend.
+
+Code Quality: Ensure the code is well-organized, modular, and properly commented.
+
+### Additional Features:
+Server-Side Rendering (SSR): Implemented SSR for the application (only applicable if using Next.js).
+
+URL Parameters: Used URL parameters to handle search functionality.
+
 
 ## Getting Started
 
