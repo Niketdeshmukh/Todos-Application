@@ -1,5 +1,6 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
+
+import { useState, useRef, useEffect, Suspense } from "react";
 import Head from "next/head";
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Button, Card, Form } from "react-bootstrap";
@@ -9,7 +10,7 @@ import Styles2 from '../app/codeEditor.module.css';
 import TodoItem from './TodoItem';
 import FormTodo from './FormTodo';
 
-const Todo = () => {
+const TodoList = () => {
   const [todos, setTodos] = useState([
     {
       text: "Complete your todos list 😊",
@@ -163,4 +164,12 @@ const Todo = () => {
   );
 };
 
-export default Todo;
+const TodoPage = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TodoList />
+    </Suspense>
+  );
+};
+
+export default TodoPage;
