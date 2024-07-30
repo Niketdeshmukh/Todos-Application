@@ -5,15 +5,15 @@ Create a frontend Todo List application using React or Next.js with the followin
 
 ### Requirements
 Core Features:
-Create Task: Allow users to add new tasks.
+* Create Task: Allow users to add new tasks.
 
-Update Task: Allow users to edit existing tasks.
+* Update Task: Allow users to edit existing tasks.
 
-Mark as Done: Allow users to mark tasks as completed.
+* Mark as Done: Allow users to mark tasks as completed.
 
-Search Tasks: Implement a search functionality to filter tasks.
+* Search Tasks: Implement a search functionality to filter tasks.
 
-Expandable List: Display tasks in an expandable list format, showing a description and a timestamp of the last update when expanded.
+* Expandable List: Display tasks in an expandable list format, showing a description and a timestamp of the last update when expanded.
 
 ### Framework:
 Used Next.js for the frontend.
@@ -21,9 +21,9 @@ Used Next.js for the frontend.
 Code Quality: Ensure the code is well-organized, modular, and properly commented.
 
 ### Additional Features:
-Server-Side Rendering (SSR): Implemented SSR for the application (only applicable if using Next.js).
+* Server-Side Rendering (SSR): Implemented SSR for the application (only applicable if using Next.js).
 
-URL Parameters: Used URL parameters to handle search functionality.
+* URL Parameters: Used URL parameters to handle search functionality.
 
 
 ## Getting Started
